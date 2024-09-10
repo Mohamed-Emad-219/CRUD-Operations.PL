@@ -15,6 +15,7 @@ namespace CURD.DAL.Data.Configurations
         {
             // 3rd way Fluant Apis
             builder.Property(D => D.Id).UseIdentityColumn(1, 1);//10,10
+
         }
     }
 }
