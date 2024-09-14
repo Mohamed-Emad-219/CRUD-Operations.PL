@@ -15,7 +15,7 @@ namespace CURD.DAL.Models
         [Required(ErrorMessage = "Name Is Required!.")] 
         public string Name { get; set; }
 
-        [Display(Name = "Date Of Creation")]
+        [Display(Name = "Date Of Creation")] // in view model 
         public DateTime DateOfCreation { get; set; }
     }
 }
